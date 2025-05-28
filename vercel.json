@@ -1,5 +1,5 @@
 {
-    "initialCommand":"npm install --legacy-peer-deps",
+    
     "version":2,
     "builds":[
         {
