@@ -47,7 +47,7 @@ app.post('/api/login', (req, res) => {
 });
 
 // Profile endpoint
-app.post('/api/profile', (req, res) => {
+app.get('/api/profile', (req, res) => {
   try {
     const { username } = req.body;
 
