@@ -70,13 +70,10 @@ app.get('/api/users', (req, res) => {
     }
 
     // Remove sensitive data (e.g., passwords)
-    const sanitizedUsers = users.map(({ password, ...rest }) => rest);
+    const usersData = users.map(({ password, ...rest }) => rest);
 
-    res.status(200).json({
-      success: true,
-      count: sanitizedUsers.length,
-      data: sanitizedUsers,
-    });
+    res.status(200).json(usersData
+    );
   } catch (error) {
     console.error('Error fetching users:', error);
     res.status(500).json({
