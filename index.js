@@ -60,7 +60,30 @@ app.get('/api/profile', (req, res) => {
 
 // View all users endpoint
 app.get('/api/users', (req, res) => {
-  res.json(users);
+  try {
+    // Ensure users array exists and is an array
+    if (!Array.isArray(users)) {
+      return res.status(500).json({
+        success: false,
+        message: 'Users data is corrupted or not available.',
+      });
+    }
+
+    // Remove sensitive data (e.g., passwords)
+    const sanitizedUsers = users.map(({ password, ...rest }) => rest);
+
+    res.status(200).json({
+      success: true,
+      count: sanitizedUsers.length,
+      data: sanitizedUsers,
+    });
+  } catch (error) {
+    console.error('Error fetching users:', error);
+    res.status(500).json({
+      success: false,
+      message: 'Internal server error.',
+    });
+  }
 });
 
 
