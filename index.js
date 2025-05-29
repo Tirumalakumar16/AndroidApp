@@ -8,18 +8,28 @@ app.use(bodyParser.json());
 
 const users = [
   {
-    username: 'admin',
-    password: 'admin123',   
-    fullname: 'Tirumala',
-    email: 'admin@gmail.com',
-    role: 'Admin'
+    username: 'john',
+    password: 'john123',   
+    fullname: 'John Deo',
+    email: 'johndeo@gmail.com',
+    role: 'Admin',
+    mobile : '9966332255'
   },
   {
     username: 'ktk',
     password: 'ktk123',
-    fullname: 'Tirumala Kumar',
+    fullname: 'Tirumala',
     email: 'ktk@gmail.com',
-    role: 'Dev'
+    role: 'Dev',
+    mobile : '8855223366'
+  },
+  {
+    username: 'tirumala',
+    password: 'tirumala123',
+    fullname: 'Tirumala Kumar',
+    email: 'tirumala123@gmail.com',
+    role: 'Lead',
+    mobile : '7744552266'
   },
 ];
 
@@ -42,11 +52,18 @@ app.get('/api/profile', (req, res) => {
   const user = users.find(u => u.username === username);
 
   if (user) {
-    res.json({ username: user.username, fullname: user.fullname, email: user.email , role: user.role });
+    res.json({ username: user.username, fullname: user.fullname, email: user.email , role: user.role , mobile: user.mobile });
   } else {
     res.status(404).json({ message: 'User not found' });
   }
 });
+
+// View all users endpoint
+app.get('/api/users', (req, res) => {
+  res.json(users);
+});
+
+
 
 const PORT = process.env.PORT || 1626;
 app.listen(PORT, () => {
