@@ -47,14 +47,37 @@ app.post('/api/login', (req, res) => {
 });
 
 // Profile endpoint
-app.get('/api/profile', (req, res) => {
-  const username = req.query.username;
-  const user = users.find(u => u.username === username);
+app.post('/api/profile', (req, res) => {
+  try {
+    const { username } = req.body;
 
-  if (user) {
-    res.json({ username: user.username, fullname: user.fullname, email: user.email , role: user.role , mobile: user.mobile });
-  } else {
-    res.status(404).json({ message: 'User not found' });
+    if (!username) {
+      return res.status(400).json({
+        success: false,
+        message: 'Username is required in the request body.',
+      });
+    }
+
+    const user = users.find(u => u.username === username);
+
+    if (user) {
+      const { username, fullname, email, role, mobile } = user;
+      return res.status(200).json({
+        success: true,
+        profile: { username, fullname, email, role, mobile },
+      });
+    } else {
+      return res.status(404).json({
+        success: false,
+        message: 'User not found',
+      });
+    }
+  } catch (error) {
+    console.error('Error in /api/profile:', error);
+    res.status(500).json({
+      success: false,
+      message: 'Internal server error.',
+    });
   }
 });
 
