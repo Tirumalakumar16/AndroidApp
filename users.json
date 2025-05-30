@@ -1,0 +1,26 @@
+[
+  {
+    "username": "john",
+    "password": "john123",
+    "fullname": "John Deo",
+    "email": "johndeo@gmail.com",
+    "role": "Admin",
+    "mobile": "9966332255"
+  },
+  {
+    "username": "ktk",
+    "password": "ktk123",
+    "fullname": "Tirumala",
+    "email": "ktk@gmail.com",
+    "role": "Dev",
+    "mobile": "8855223366"
+  },
+  {
+    "username": "tirumala",
+    "password": "tirumala123",
+    "fullname": "Tirumala Kumar",
+    "email": "tirumala123@gmail.com",
+    "role": "Lead",
+    "mobile": "7744552266"
+  }
+]
