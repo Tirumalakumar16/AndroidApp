@@ -65,8 +65,8 @@ app.post('/api/profile', (req, res) => {
   const user = users.find(u => u.username === username);
 
   if (user) {
-    const { username, fullname, email, balance, mobile } = user;
-    res.json({ success: true, profile: { username, fullname, email, balance, mobile } });
+    const { username, fullname, email, balance, mobile ,accountNo} = user;
+    res.json({ success: true, profile: { username, fullname, email, balance, mobile , accountNo} });
   } else {
     res.status(404).json({ success: false, message: 'User not found' });
   }
@@ -79,18 +79,7 @@ app.get('/api/users', (req, res) => {
   res.json({ usersData });
 });
 
-app.post('/api/balance', (req, res) => {
-  const { username } = req.body;
-  const users = readUsers();
 
-  const user = users.find(u => u.username === username);
-
-  if (user) {
-    res.json({ success: true, balance: user.balance });
-  } else {
-    res.status(404).json({ success: false, message: 'User not found' });
-  }
-});
 
 const PORT = process.env.PORT || 1626;
 app.listen(PORT, () => {
