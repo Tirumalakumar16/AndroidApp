@@ -4,7 +4,7 @@
     "password": "john123",
     "fullname": "John Deo",
     "email": "johndeo@gmail.com",
-    "role": "Admin",
+    "balance": 100000,
     "mobile": "9966332255"
   },
   {
@@ -12,7 +12,7 @@
     "password": "ktk123",
     "fullname": "Tirumala",
     "email": "ktk@gmail.com",
-    "role": "Dev",
+    "balance": 100000,
     "mobile": "8855223366"
   },
   {
@@ -20,7 +20,7 @@
     "password": "tirumala123",
     "fullname": "Tirumala Kumar",
     "email": "tirumala123@gmail.com",
-    "role": "Lead",
+    "balance": 100000,
     "mobile": "7744552266"
   }
 ]
