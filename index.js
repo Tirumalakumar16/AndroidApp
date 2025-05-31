@@ -79,6 +79,46 @@ app.get('/api/users', (req, res) => {
   res.json({ usersData });
 });
 
+app.post('/api/add-beneficiary', (req, res) => {
+  const { fullname, accountNo } = req.body;
+
+  if (!fullname || !accountNo) {
+    return res.status(400).json({ success: false, message: 'fullname and accountNo are required.' });
+  }
+// I am not validating the account number and full name
+  const filePath = path.join(__dirname, 'beneficiary.json');
+
+  // Read existing data
+  fs.readFile(filePath, 'utf8', (err, data) => {
+    if (err) {
+      console.error('Error reading file:', err);
+      return res.status(500).json({ success: false, message: 'Failed to read beneficiary file.' });
+    }
+
+    let beneficiaries = [];
+
+    try {
+      beneficiaries = JSON.parse(data);
+    } catch (parseError) {
+      console.error('Error parsing JSON:', parseError);
+      return res.status(500).json({ success: false, message: 'Failed to parse beneficiary data.' });
+    }
+
+    // Add new beneficiary
+    const newBeneficiary = { fullname, accountNo };
+    beneficiaries.push(newBeneficiary);
+
+    // Write updated data
+    fs.writeFile(filePath, JSON.stringify(beneficiaries, null, 2), 'utf8', (writeErr) => {
+      if (writeErr) {
+        console.error('Error writing file:', writeErr);
+        return res.status(500).json({ success: false, message: 'Failed to write beneficiary file.' });
+      }
+
+      res.status(201).json({ success: true, message: 'Beneficiary added successfully.' });
+    });
+  });
+});
 
 
 const PORT = process.env.PORT || 1626;
