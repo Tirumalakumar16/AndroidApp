@@ -1,0 +1,182 @@
+[
+  {
+    "date": "04 Jan 2025",
+    "description": "TRANSFER FROM 1827391827391\nUPI/CR/849128391283\n/ANKIT M/PHONEPE/...",
+    "transactionType": "Credit",
+    "amount": 7085.14
+  },
+  {
+    "date": "10 Jan 2025",
+    "description": "TRANSFER TO 8473928473910\nUPI/DR/314598213452\n/SWATI R/PHONEPE/...",
+    "transactionType": "Debit",
+    "amount": 4147.05
+  },
+  {
+    "date": "17 Jan 2025",
+    "description": "TRANSFER TO 9898393848492\nUPI/DR/998123489123\n/VIRAT K/GPAY/...",
+    "transactionType": "Debit",
+    "amount": 9850.47
+  },
+  {
+    "date": "26 Jan 2025",
+    "description": "TRANSFER FROM 3298472189231\nUPI/CR/615489213221\n/RAHUL G/GPAY/...",
+    "transactionType": "Credit",
+    "amount": 7117.48
+  },
+  {
+    "date": "30 Jan 2025",
+    "description": "TRANSFER FROM 3298472189231\nUPI/CR/615489213221\n/RAHUL G/GPAY/...",
+    "transactionType": "Credit",
+    "amount": 7220.78
+  },
+  {
+    "date": "04 Feb 2025",
+    "description": "TRANSFER FROM 7748593029483\nUPI/CR/223894892130\n/NEHA B/PAYTM/...",
+    "transactionType": "Credit",
+    "amount": 8997.98
+  },
+  {
+    "date": "13 Feb 2025",
+    "description": "TRANSFER FROM 3298472189231\nUPI/CR/615489213221\n/RAHUL G/GPAY/...",
+    "transactionType": "Credit",
+    "amount": 6073.89
+  },
+  {
+    "date": "19 Feb 2025",
+    "description": "TRANSFER FROM 1827391827391\nUPI/CR/849128391283\n/ANKIT M/PHONEPE/...",
+    "transactionType": "Credit",
+    "amount": 3468.74
+  },
+  {
+    "date": "04 Mar 2025",
+    "description": "TRANSFER FROM 7748593029483\nUPI/CR/223894892130\n/NEHA B/PAYTM/...",
+    "transactionType": "Credit",
+    "amount": 2540.65
+  },
+  {
+    "date": "05 Mar 2025",
+    "description": "TRANSFER TO 9898393848492\nUPI/DR/998123489123\n/VIRAT K/GPAY/...",
+    "transactionType": "Debit",
+    "amount": 8304.44
+  },
+  {
+    "date": "07 Mar 2025",
+    "description": "TRANSFER FROM 3298472189231\nUPI/CR/615489213221\n/RAHUL G/GPAY/...",
+    "transactionType": "Credit",
+    "amount": 6030.79
+  },
+  {
+    "date": "08 Mar 2025",
+    "description": "TRANSFER TO 4897696162090\nUPI/DR/315533224412\n/JIBRIL A/PAYTM/...",
+    "transactionType": "Debit",
+    "amount": 6632.41
+  },
+  {
+    "date": "17 Mar 2025",
+    "description": "TRANSFER FROM 1827391827391\nUPI/CR/849128391283\n/ANKIT M/PHONEPE/...",
+    "transactionType": "Credit",
+    "amount": 4628.53
+  },
+  {
+    "date": "22 Mar 2025",
+    "description": "TRANSFER FROM 3298472189231\nUPI/CR/615489213221\n/RAHUL G/GPAY/...",
+    "transactionType": "Credit",
+    "amount": 9384.01
+  },
+  {
+    "date": "23 Mar 2025",
+    "description": "TRANSFER TO 4897696162090\nUPI/DR/315533224412\n/JIBRIL A/PAYTM/...",
+    "transactionType": "Debit",
+    "amount": 4971.37
+  },
+  {
+    "date": "03 Apr 2025",
+    "description": "TRANSFER TO 4897696162090\nUPI/DR/315533224412\n/JIBRIL A/PAYTM/...",
+    "transactionType": "Debit",
+    "amount": 4495.68
+  },
+  {
+    "date": "12 Apr 2025",
+    "description": "TRANSFER TO 4897696162090\nUPI/DR/315533224412\n/JIBRIL A/PAYTM/...",
+    "transactionType": "Debit",
+    "amount": 8607.98
+  },
+  {
+    "date": "14 Apr 2025",
+    "description": "TRANSFER FROM 7748593029483\nUPI/CR/223894892130\n/NEHA B/PAYTM/...",
+    "transactionType": "Credit",
+    "amount": 8782.6
+  },
+  {
+    "date": "21 Apr 2025",
+    "description": "TRANSFER FROM 3298472189231\nUPI/CR/615489213221\n/RAHUL G/GPAY/...",
+    "transactionType": "Credit",
+    "amount": 5905.71
+  },
+  {
+    "date": "22 Apr 2025",
+    "description": "TRANSFER FROM 7748593029483\nUPI/CR/223894892130\n/NEHA B/PAYTM/...",
+    "transactionType": "Credit",
+    "amount": 1332.77
+  },
+  {
+    "date": "24 Apr 2025",
+    "description": "TRANSFER TO 4897696162090\nUPI/DR/315533224412\n/JIBRIL A/PAYTM/...",
+    "transactionType": "Debit",
+    "amount": 131.48
+  },
+  {
+    "date": "05 May 2025",
+    "description": "TRANSFER FROM 1827391827391\nUPI/CR/849128391283\n/ANKIT M/PHONEPE/...",
+    "transactionType": "Credit",
+    "amount": 9336.67
+  },
+  {
+    "date": "06 May 2025",
+    "description": "TRANSFER TO 8473928473910\nUPI/DR/314598213452\n/SWATI R/PHONEPE/...",
+    "transactionType": "Debit",
+    "amount": 2268.13
+  },
+  {
+    "date": "14 May 2025",
+    "description": "TRANSFER FROM 7748593029483\nUPI/CR/223894892130\n/NEHA B/PAYTM/...",
+    "transactionType": "Credit",
+    "amount": 7766.23
+  },
+  {
+    "date": "16 May 2025",
+    "description": "TRANSFER FROM 1827391827391\nUPI/CR/849128391283\n/ANKIT M/PHONEPE/...",
+    "transactionType": "Credit",
+    "amount": 5004.09
+  },
+  {
+    "date": "17 May 2025",
+    "description": "TRANSFER FROM 3298472189231\nUPI/CR/615489213221\n/RAHUL G/GPAY/...",
+    "transactionType": "Credit",
+    "amount": 4223.25
+  },
+  {
+    "date": "20 May 2025",
+    "description": "TRANSFER FROM 3298472189231\nUPI/CR/615489213221\n/RAHUL G/GPAY/...",
+    "transactionType": "Credit",
+    "amount": 1304.37
+  },
+  {
+    "date": "03 Jun 2025",
+    "description": "TRANSFER TO 4897696162090\nUPI/DR/315533224412\n/JIBRIL A/PAYTM/...",
+    "transactionType": "Debit",
+    "amount": 3861.4
+  },
+  {
+    "date": "15 Jun 2025",
+    "description": "TRANSFER TO 8473928473910\nUPI/DR/314598213452\n/SWATI R/PHONEPE/...",
+    "transactionType": "Debit",
+    "amount": 4034.32
+  },
+  {
+    "date": "18 Jun 2025",
+    "description": "TRANSFER FROM 3298472189231\nUPI/CR/615489213221\n/RAHUL G/GPAY/...",
+    "transactionType": "Credit",
+    "amount": 1246.93
+  }
+]

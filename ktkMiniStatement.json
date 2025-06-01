@@ -1,0 +1,182 @@
+[
+        {
+            "date": "08 Jan 2025",
+            "description": "TRANSFER TO 7845123654890\nUPI/DR/318523698741\n/RAHUL K/GOOGLE PAY/...",
+            "transactionType": "Debit",
+            "amount": 4154.89
+        },
+        {
+            "date": "15 Feb 2025",
+            "description": "TRANSFER FROM 8945621300987\nUPI/CR/319874123456\n/NEHA R/GOOGLE PAY/...",
+            "transactionType": "Credit",
+            "amount": 5706.71
+        },
+        {
+            "date": "13 Mar 2025",
+            "description": "TRANSFER TO 7845123654890\nUPI/DR/318523698741\n/RAHUL K/GOOGLE PAY/...",
+            "transactionType": "Debit",
+            "amount": 3457.48
+        },
+        {
+            "date": "01 Apr 2025",
+            "description": "TRANSFER FROM 6758231345987\nUPI/CR/317712345698\n/ADITYA D/PAYTM/...",
+            "transactionType": "Credit",
+            "amount": 3155.12
+        },
+        {
+            "date": "04 Apr 2025",
+            "description": "TRANSFER FROM 6758231345987\nUPI/CR/317712345698\n/ADITYA D/PAYTM/...",
+            "transactionType": "Credit",
+            "amount": 631.01
+        },
+        {
+            "date": "10 Apr 2025",
+            "description": "TRANSFER TO 7845123654890\nUPI/DR/318523698741\n/RAHUL K/GOOGLE PAY/...",
+            "transactionType": "Debit",
+            "amount": 635.33
+        },
+        {
+            "date": "12 Apr 2025",
+            "description": "TRANSFER TO 4897696162090\nUPI/DR/315533224412\n/JIBRIL A/PAYTM/...",
+            "transactionType": "Debit",
+            "amount": 9462.3
+        },
+        {
+            "date": "12 Apr 2025",
+            "description": "TRANSFER FROM 8945621300987\nUPI/CR/319874123456\n/NEHA R/GOOGLE PAY/...",
+            "transactionType": "Credit",
+            "amount": 1328.64
+        },
+        {
+            "date": "16 Apr 2025",
+            "description": "TRANSFER TO 7845123654890\nUPI/DR/318523698741\n/RAHUL K/GOOGLE PAY/...",
+            "transactionType": "Debit",
+            "amount": 1644.47
+        },
+        {
+            "date": "19 Apr 2025",
+            "description": "TRANSFER TO 4897696162090\nUPI/DR/315533224412\n/JIBRIL A/PAYTM/...",
+            "transactionType": "Debit",
+            "amount": 5460.57
+        },
+        {
+            "date": "27 Apr 2025",
+            "description": "TRANSFER FROM 8945621300987\nUPI/CR/319874123456\n/NEHA R/GOOGLE PAY/...",
+            "transactionType": "Credit",
+            "amount": 2443.08
+        },
+        {
+            "date": "28 Apr 2025",
+            "description": "TRANSFER TO 4897696162090\nUPI/DR/315533224412\n/JIBRIL A/PAYTM/...",
+            "transactionType": "Debit",
+            "amount": 7888.68
+        },
+        {
+            "date": "06 May 2025",
+            "description": "TRANSFER FROM 8945621300987\nUPI/CR/319874123456\n/NEHA R/GOOGLE PAY/...",
+            "transactionType": "Credit",
+            "amount": 1600.04
+        },
+        {
+            "date": "30 May 2025",
+            "description": "TRANSFER TO 7845123654890\nUPI/DR/318523698741\n/RAHUL K/GOOGLE PAY/...",
+            "transactionType": "Debit",
+            "amount": 2954.85
+        },
+        {
+            "date": "07 Jul 2025",
+            "description": "TRANSFER FROM 7845621307876\nUPI/CR/318762356321\n/SAMEER L/PHONEPE/...",
+            "transactionType": "Credit",
+            "amount": 4129.18
+        },
+        {
+            "date": "06 Aug 2025",
+            "description": "TRANSFER TO 6598741236550\nUPI/DR/312345667890\n/ANITA S/PHONEPE/...",
+            "transactionType": "Debit",
+            "amount": 5765.94
+        },
+        {
+            "date": "30 Aug 2025",
+            "description": "TRANSFER TO 7845123654890\nUPI/DR/318523698741\n/RAHUL K/GOOGLE PAY/...",
+            "transactionType": "Debit",
+            "amount": 9210.21
+        },
+        {
+            "date": "05 Sep 2025",
+            "description": "TRANSFER TO 4897696162090\nUPI/DR/315533224412\n/JIBRIL A/PAYTM/...",
+            "transactionType": "Debit",
+            "amount": 3840.4
+        },
+        {
+            "date": "09 Sep 2025",
+            "description": "TRANSFER FROM 6758231345987\nUPI/CR/317712345698\n/ADITYA D/PAYTM/...",
+            "transactionType": "Credit",
+            "amount": 7655.57
+        },
+        {
+            "date": "12 Sep 2025",
+            "description": "TRANSFER FROM 6758231345987\nUPI/CR/317712345698\n/ADITYA D/PAYTM/...",
+            "transactionType": "Credit",
+            "amount": 6866.52
+        },
+        {
+            "date": "15 Sep 2025",
+            "description": "TRANSFER TO 4897696162090\nUPI/DR/315533224412\n/JIBRIL A/PAYTM/...",
+            "transactionType": "Debit",
+            "amount": 3460.9
+        },
+        {
+            "date": "16 Sep 2025",
+            "description": "TRANSFER TO 4897696162090\nUPI/DR/315533224412\n/JIBRIL A/PAYTM/...",
+            "transactionType": "Debit",
+            "amount": 8744.43
+        },
+        {
+            "date": "26 Sep 2025",
+            "description": "TRANSFER TO 4897696162090\nUPI/DR/315533224412\n/JIBRIL A/PAYTM/...",
+            "transactionType": "Debit",
+            "amount": 871.86
+        },
+        {
+            "date": "22 Oct 2025",
+            "description": "TRANSFER TO 7845123654890\nUPI/DR/318523698741\n/RAHUL K/GOOGLE PAY/...",
+            "transactionType": "Debit",
+            "amount": 4342.49
+        },
+        {
+            "date": "30 Oct 2025",
+            "description": "TRANSFER FROM 6758231345987\nUPI/CR/317712345698\n/ADITYA D/PAYTM/...",
+            "transactionType": "Credit",
+            "amount": 2864.51
+        },
+        {
+            "date": "24 Nov 2025",
+            "description": "TRANSFER FROM 8945621300987\nUPI/CR/319874123456\n/NEHA R/GOOGLE PAY/...",
+            "transactionType": "Credit",
+            "amount": 7653.95
+        },
+        {
+            "date": "29 Nov 2025",
+            "description": "TRANSFER TO 4897696162090\nUPI/DR/315533224412\n/JIBRIL A/PAYTM/...",
+            "transactionType": "Debit",
+            "amount": 5682.68
+        },
+        {
+            "date": "04 Dec 2025",
+            "description": "TRANSFER FROM 7845621307876\nUPI/CR/318762356321\n/SAMEER L/PHONEPE/...",
+            "transactionType": "Credit",
+            "amount": 166.19
+        },
+        {
+            "date": "29 Dec 2025",
+            "description": "TRANSFER TO 6598741236550\nUPI/DR/312345667890\n/ANITA S/PHONEPE/...",
+            "transactionType": "Debit",
+            "amount": 7948.92
+        },
+        {
+            "date": "30 Dec 2025",
+            "description": "TRANSFER FROM 6758231345987\nUPI/CR/317712345698\n/ADITYA D/PAYTM/...",
+            "transactionType": "Credit",
+            "amount": 6016.8
+        }
+]
