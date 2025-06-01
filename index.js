@@ -122,40 +122,25 @@ app.post('/api/add-beneficiary', (req, res) => {
   });
 });
 
+
+const dataMap = {
+  ktk: require('./data/ktkMiniStatement.json'),
+  john: require('./data/johnMiniStatement.json'),
+  tirumala: require('./data/tirumalaMiniStatement.json'),
+};
+
 app.post('/api/mini-statement', (req, res) => {
-    const { username } = req.body;
+  const { username } = req.body;
+  if (!username) {
+    return res.status(400).json({ success: false, message: 'Username is required.' });
+  }
 
-    if (!username) {
-        return res.status(400).json({ success: false, message: 'Username is required.' });
-    }
+  const userData = dataMap[username.toLowerCase()];
+  if (!userData) {
+    return res.status(404).json({ success: false, message: 'User not found.' });
+  }
 
-    const filenameMap = {
-        ktk: 'ktkMiniStatement.json',
-        john: 'johnMiniStatement.json',
-        tirumala: 'tirumalaMiniStatement.json',
-    };
-
-    const filename = filenameMap[username.toLowerCase()];
-    if (!filename) {
-        return res.status(404).json({ success: false, message: 'User not found.' });
-    }
-
-    const filePath = path.join(__dirname, filename);
-
-    fs.readFile(filePath, 'utf8', (err, data) => {
-        if (err) {
-            console.error('❌ Error reading file:', err);
-            return res.status(500).json({ success: false, message: 'Failed to load mini statement.' });
-        }
-
-        try {
-            const transactions = JSON.parse(data);
-            return res.status(200).json({ success: true, transactions });
-        } catch (parseErr) {
-            console.error('❌ Error parsing JSON:', parseErr);
-            return res.status(500).json({ success: false, message: 'Invalid JSON format.' });
-        }
-    });
+  return res.status(200).json({ success: true, transactions: userData.transactions });
 });
 
 
