@@ -140,7 +140,7 @@ app.post('/api/mini-statement', (req, res) => {
     return res.status(404).json({ success: false, message: 'User not found.' });
   }
     let transactions = []
-    transactions = JSON.parse(userData);
+    transactions = JSON.parse(userData.transactions);
   return res.status(200).json({ success: true, transactions });
 });
 
