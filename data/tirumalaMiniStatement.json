@@ -1,4 +1,4 @@
-[
+{"transactions":[
   {
     "date": "04 Jan 2025",
     "description": "TRANSFER FROM 1827391827391\nUPI/CR/849128391283\n/ANKIT M/PHONEPE/...",
@@ -180,3 +180,4 @@
     "amount": 1246.93
   }
 ]
+}

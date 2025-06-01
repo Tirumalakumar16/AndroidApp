@@ -129,8 +129,9 @@ const dataMap = {
   tirumala: require('./data/tirumalaMiniStatement.json'),
 };
 
-app.post('/api/mini-statement', (req, res) => {
+pp.post('/api/mini-statement', (req, res) => {
   const { username } = req.body;
+
   if (!username) {
     return res.status(400).json({ success: false, message: 'Username is required.' });
   }
@@ -139,8 +140,10 @@ app.post('/api/mini-statement', (req, res) => {
   if (!userData) {
     return res.status(404).json({ success: false, message: 'User not found.' });
   }
-    let transactions = []
-    transactions = JSON.parse(userData.transactions);
+
+  // userData is already parsed JSON
+  const transactions = userData.transactions;
+
   return res.status(200).json({ success: true, transactions });
 });
 
