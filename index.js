@@ -123,29 +123,29 @@ app.post('/api/add-beneficiary', (req, res) => {
 });
 
 
-// const dataMap = {
-//   ktk: require('./data/ktkMiniStatement.json'),
-//   john: require('./data/johnMiniStatement.json'),
-//   tirumala: require('./data/tirumalaMiniStatement.json'),
-// };
+const dataMap = {
+  ktk: require('./data/ktkMiniStatement.json'),
+  john: require('./data/johnMiniStatement.json'),
+  tirumala: require('./data/tirumalaMiniStatement.json'),
+};
 
-// pp.post('/api/mini-statement', (req, res) => {
-//   const { username } = req.body;
+app.post('/api/mini-statement', (req, res) => {
+  const { username } = req.body;
 
-//   if (!username) {
-//     return res.status(400).json({ success: false, message: 'Username is required.' });
-//   }
+  if (!username) {
+    return res.status(400).json({ success: false, message: 'Username is required.' });
+  }
 
-//   const userData = dataMap[username.toLowerCase()];
-//   if (!userData) {
-//     return res.status(404).json({ success: false, message: 'User not found.' });
-//   }
+  const userData = dataMap[username.toLowerCase()];
+  if (!userData) {
+    return res.status(404).json({ success: false, message: 'User not found.' });
+  }
 
-//   // userData is already parsed JSON
-//   const transactions = userData.transactions;
+  // userData is already parsed JSON
+  const transactions = userData.transactions;
 
-//   return res.status(200).json({ success: true, transactions });
-// });
+  return res.status(200).json({ success: true, transactions });
+});
 
 
 
